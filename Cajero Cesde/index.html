@@ -1,0 +1,72 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cajero Electrónico</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="atm">
+    <div class="screen">
+      <h1 class="title">Cajero Electrónico</h1>
+    
+      <div class="contenido-cajero">
+        <!-- Menú principal -->
+        <div class="menu-principal">
+          <p>Bienvenido</p>
+          <div class="button-container">
+            <button>Cuenta corriente</button>
+            <button>Cuenta de ahorros</button>
+            <button>Perfil</button>
+            <button>Consultar Saldo</button>
+            <button>Registrar Movimiento</button>
+            <button>Consultar Movimientos</button>
+            <button>Cerrar Sesión</button>
+          </div>
+        </div>
+    
+        <!-- Panel perfil -->
+        <div class="perfil-panel">
+          <input type="text" id="input-nombre" placeholder="Nuevo nombre" />
+          <button id="btn-cambiar-nombre">Cambiar</button>
+    
+          <input type="text" id="input-apellido" placeholder="Nuevo apellido" />
+          <button id="btn-cambiar-apellido">Cambiar</button>
+    
+          <button id="btn-editar-perfil" class="btn-perfil-full">Editar Perfil</button>
+        </div>
+      </div>
+    </div>
+    
+     <!-- Panel perfil -->
+<!-- Panel perfil -->
+    <div class="controls">
+      <div class="keypad">
+        <button id="btn-1">1</button>
+        <button id="btn-2">2</button>
+        <button id="btn-3">3</button>
+        <button id="btn-4">4</button>
+        <button id="btn-5">5</button>
+        <button id="btn-6">6</button>
+        <button id="btn-7">7</button>
+        <button id="btn-8">8</button>
+        <button id="btn-9">9</button>
+        <button id="btn-star">*</button>
+        <button id="btn-0">0</button>
+        <button id="btn-pound">#</button>
+      </div>
+      <div class="card-container">
+        <div class="card-slot"></div>
+        <div class="card-slot"></div>
+      </div>
+      <div class="func-buttons">
+        <button id="btn-red"></button>
+        <button id="btn-yellow"></button>
+        <button id="btn-green"></button>
+        <button id="btn-white"></button>
+      </div>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
